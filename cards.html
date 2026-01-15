@@ -1,0 +1,56 @@
+<html lang="pt-BR">
+
+<!--
+* PyWebCopy Engine [version 7.1]
+* Copyright 2020; Raja Tomar
+* File mirrored from [https://matheusgoulart111.netlify.app/cards.html]
+* At UTC datetime: [2026-01-15 21:23:05.254329]
+--><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Completo do Aplicativo</title>
+    <link rel="stylesheet" href="./cards.css">
+
+</head>
+
+<body>
+
+    <div class="app-header">
+        Minha Carteira
+    </div>
+
+    <div class="card-container">
+        <div class="card-bar"></div>
+
+        <div onclick="abrircard()" class="card-content">
+            
+            <div class="main-info">
+                RG DIGITAL - S&#195;O PAULO
+            </div>
+
+             <div class="secondary-info">
+                MATHEUS AZEVEDO GOULART
+            </div>
+
+            <div class="title-line">
+                <img width="18px" src="img/bandeira.png" alt="">
+                59.104.941-7
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="tab-bar">
+        <img src="img/inicio.PNG.png" alt="">
+        <img src="img/novo.PNG.png" alt="">
+        <img src="img/servicos.PNG.png" alt="">
+        <img src="img/opcoes.PNG.png" alt="">
+    </div>
+
+</body>
+<script>
+    function abrircard(){
+        window.location.href = "ultima.html"; 
+    }
+</script>
+</html>
